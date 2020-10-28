@@ -63,10 +63,3 @@ curl http://$NODE_IP:$NODE_PORT/users/1
 curl http://$NODE_IP:$NODE_PORT/users/1
 ```
 
-## Create 10 Replica Sets and check the data
-```
-kubectl create -f web-rc.yml
-curl http://$NODE_IP:$NODE_PORT/users/1
-```
-
-
